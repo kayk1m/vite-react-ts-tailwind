@@ -10,7 +10,7 @@ function App() {
       <header className="flex flex-col items-center justify-center min-h-screen text-white bg-[#282c34] text-3xl">
         <img
           src={logo}
-          className="h-[40vmin] pointer-events-none animate-spin-slow motion-safe:animate-none"
+          className="h-[40vmin] pointer-events-none animate-spin-slow motion-reduce:animate-none"
           alt="logo"
         />
         <p className="text-red-500">Hello Vite + React!</p>
